@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="soundFinder"> <!-- this should have an ng-app -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sound Finder</title>
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+
+    <!-- VENDOR SCRIPTS -->
+    <script src="//code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular-route.js"></script>
+
+
+    <!-- APPLICATION SCRIPTS -->
+    <script src="/scripts/app.js"></script>
+    <script src="/scripts/controllers/ArtistsIndexController.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+<h1>Sound Finder</h1>
+        <div class="col-md-6" ng-view ></div>
+    </div>
+  </body>
+</html>
