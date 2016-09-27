@@ -1,8 +1,6 @@
 angular.module('soundFinder')
     .controller('ArtistsIndexController', ArtistsIndexController);
 
-console.log("AristIndexControllerLinked!");
-
 ArtistsIndexController.$inject = ['$http', '$routeParams', '$location'];
 
 function ArtistsIndexController($http, $routeParams, $location) {
