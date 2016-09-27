@@ -9,9 +9,9 @@ function SearchController($http, $routeParams) {
   vm.getArtists = function (query) {
     $http({
       method: 'GET',
-      url: 'https://api.spotify.com/v1/search?q=tania%20bowra&type=artist&q=' + query
+      url: 'https://api.spotify.com/v1/search?q=' + query + '&type=artist&limit=4' 
     }).then(function successCallback(succ) {
-      vm.playlists = succ.data.playlists.items;
+      vm.artists = succ.data.artists.items;
     }, function errorCallback(err) {
       console.log('error', err);
     });
