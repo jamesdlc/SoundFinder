@@ -12,6 +12,9 @@
     <div class="cover">
       <h1>{{artist.name}}</h1>
       <img class="artist-image" src="{{artist.images[1].url}}">
+      <a ng-href="/artists/{{artist.id}}">
+          <button type="button" class="similar-artist" name="button">Artists Similar to {{artist.name}}</button>
+      </a>
     </div>
   </div>
 </div>
