@@ -38,3 +38,8 @@ height: 320px;
 .similar-artist{
   border-radius: 7px;
 }
+
+.start-over-button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

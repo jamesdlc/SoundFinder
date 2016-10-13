@@ -1,4 +1,6 @@
+
 <div class="col-xs-12 col-md-offset-6">
+  <a href="/" class="btn btn-success center-block start-over-button">Start Over</a>
     <div ng-repeat="artist in artistsCtrl.artists">
         <div class="col-xs-3 artist-panel">
             <h3 class="artist-name">{{artist.name}}</h3>
@@ -6,8 +8,6 @@
             <br>
             <a href="{{artist.external_urls.spotify}}"><img class="spotify-button " src="/public/images/spotify.png"></a>
             <br>
-            <a ng-href="/artists/{{artist.id}}">
-                <button type="button" class="similar-artist" name="button">Artists Similar to {{artist.name}}</button>
             </a>
         </div>
     </div>
