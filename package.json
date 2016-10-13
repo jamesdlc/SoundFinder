@@ -1,0 +1,24 @@
+{
+  "name": "soundfinder",
+  "version": "1.0.0",
+  "description": "Your goal is to build an API \"Mashup\", or \"rapid prototype\", using Angular and your choice of public APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesdlc/SoundFinder.git"
+  },
+  "author": "James de la Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesdlc/SoundFinder/issues"
+  },
+  "homepage": "https://github.com/jamesdlc/SoundFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0"
+  }
+}
