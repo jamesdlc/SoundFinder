@@ -30,8 +30,7 @@ height: 320px;
 }
 
 .artist-name{
-  height: 45px;
-  width: 120px;
+  text-align: center;
   color: white;
 }
 
